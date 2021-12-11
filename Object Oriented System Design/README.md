@@ -52,4 +52,37 @@ Use case diagrams describe a set of actions (called use cases) that a system sho
 2. It answers what system does from the user point of view.
 3. Use case answers ‘What will the system do?’ and at the same time tells us ‘What will the system NOT do?’.
 
-![Alt text](Diagrams/UseCaseDiagram.png?raw=true "Title")
+![Alt text](Diagrams/UseCaseDiagram.png?raw=true "Use Case")
+
+## Class Diagram:
+
+Class diagram is the backbone of object-oriented modeling - it shows how different entities (people, things, and data) relate to each other. In other words, it shows the static structures of the system.
+
+A class diagram describes the attributes and operations of a class and also the constraints imposed on the system. Class diagrams are widely used in the modeling of object-oriented systems because they are the only UML diagrams that can be mapped directly to object-oriented languages.
+
+The purpose of the class diagram can be summarized as:
+1. Analysis and design of the static view of an application;
+2. To describe the responsibilities of a system;
+3. To provide a base for component and deployment diagrams; and,
+4. Forward and reverse engineering.
+
+![Alt text](Diagrams/ClassDiagram.png?raw=true "Class Diagram")
+
+## Sequence Diagram:
+
+Sequence diagrams describe interactions among classes in terms of an exchange of messages over time and are used to explore the logic of complex operations, functions or procedures. In this diagram, the sequence of interactions between the objects is represented in a step-by-step manner.
+
+Sequence diagrams show a detailed flow for a specific use case or even just part of a particular use case. They are almost self-explanatory; they show the calls between the different objects in their sequence and can explain, at a detailed level, different calls to various objects.
+
+A sequence diagram has two dimensions: The vertical dimension shows the sequence of messages in the chronological order that they occur; the horizontal dimension shows the object instances to which the messages are sent.
+
+![Alt text](Diagrams/SequenceDiagram.png?raw=true "Class Diagram")
+
+## Activity Diagrams:
+
+We use Activity Diagrams to illustrate the flow of control in a system. An activity diagram shows the flow of control for a system functionality; it emphasizes the condition of flow and the sequence in which it happens. We can also use an activity diagram to refer to the steps involved in the execution of a use case.
+
+Activity diagrams illustrate the dynamic nature of a system by modeling the flow of control from activity to activity. An activity represents an operation on some class in the system that results in a change in the state of the system. Typically, activity diagrams are used to model workflow or business processes and internal operations.
+
+![Alt text](Diagrams/ActivityDiagram.png?raw=true "Class Diagram")
+
